@@ -1,0 +1,33 @@
+:root {
+    --vp-bg-home-hero-name: linear-gradient(45deg, #ff9700, #ed1c24) !important;
+    --vp-c-home-hero-tagline: rgba(255, 255, 255);
+    --vp-c-home-hero-text: rgba(255, 255, 255);
+}
+
+html, body {
+    width: 100% ;
+    margin: 0;
+    padding: 0;
+}
+
+/* 去除 Header/Navbar 白边 */
+.theme-plume-header {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+/* 去除 Footer 白边 */
+.theme-plume-footer {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Hero 区域全屏背景 */
+.hero {
+    background: var(--vp-bg-home-hero-name) !important;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important; /* 消除视口偏移 */
+    padding: 4rem 2rem !important;
+}
+
