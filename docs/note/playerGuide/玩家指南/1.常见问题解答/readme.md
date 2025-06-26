@@ -1,5 +1,5 @@
 ---
-title: 加入服务器
+title: 服务器常见问题解答
 createTime: 2025/06/09 18:21:02
 permalink: /guide/common/
 ---
